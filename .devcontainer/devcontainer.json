@@ -1,0 +1,13 @@
+{
+  "name": "Automated Agent Environment",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "postCreateCommand": "npm install -g @google/genai-cli aider-chat expo-cli && pip install aider-chat",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
